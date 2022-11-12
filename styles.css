@@ -1,5 +1,4 @@
 body {
-    background-color: lightgreen;
     font-size: 16px;
     font-weight: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -10,4 +9,133 @@ body {
     height: 200px;
     border-radius: 25%;
     box-shadow: 3px 6px 20px 0px black;
+}
+
+.info p {
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: aquamarine;
+}
+
+a:visited {
+    color: blue;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.bg-color1 {
+    background-color: rgb(180, 255, 230);
+}
+
+.bg-color2 {
+    background-color: rgb(232, 202, 161) ;
+}
+
+.list li {
+    padding: 0 20px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding-bottom: 10px;
+}
+
+table td:nth-child(2),
+table td:nth-child(3) {
+    color: grey;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: gray;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-shadow: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group{
+    width: 50%;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.btn {
+    background: black;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
 }
